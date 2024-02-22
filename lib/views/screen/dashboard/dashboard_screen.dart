@@ -428,7 +428,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     size: 24.0,
                     color: Colors.black87,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10,
                   ),
                   Text(
@@ -457,7 +457,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     size: 24.0,
                     color: Colors.black87,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10,
                   ),
                   Text(
@@ -481,7 +481,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     size: 24.0,
                     color: Colors.black87,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10,
                   ),
                   Text(
@@ -511,7 +511,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     size: 24.0,
                     color: Colors.black87,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10,
                   ),
                   Text(
@@ -544,7 +544,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     size: 24.0,
                     color: Colors.black87,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10,
                   ),
                   Text(
@@ -577,7 +577,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     size: 24.0,
                     color: Colors.black87,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10,
                   ),
                   Text(
@@ -610,7 +610,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     size: 24.0,
                     color: Colors.black87,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10,
                   ),
                   Text(
@@ -643,7 +643,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     size: 24.0,
                     color: Colors.black87,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10,
                   ),
                   Text(

@@ -58,10 +58,10 @@ class _DetailScreenState extends State<DetailScreen> {
             color: Colors.black87,
           ),
         ),
-        actions: [
+        actions: const [
           Row(
             children: [
-              const Icon(
+              Icon(
                 Icons.search,
                 size: 24.0,
                 color: Colors.black87,
@@ -69,7 +69,7 @@ class _DetailScreenState extends State<DetailScreen> {
               SizedBox(
                 width: 10,
               ),
-              const Icon(
+              Icon(
                 Icons.shopping_bag,
                 size: 24.0,
                 color: Colors.black87,
@@ -200,21 +200,23 @@ class _DetailScreenState extends State<DetailScreen> {
                     ),
                     const SizedBox(height: 20),
                     ButtonCus(
-                        textButton: "Add To Bag",
-                        onPressed: () {
-                          productProvider.getCardData(
-                            name: widget.name,
-                            image: widget.image,
-                            quenty: count,
-                            price: widget.price,
-                            category: widget.category,
-                          );
-                          Navigator.of(context).pushReplacement(
-                            MaterialPageRoute(
-                              builder: (context) => const CartScreen(),
-                            ),
-                          );
-                        }),
+                      textButton: "Add To Bag",
+                      onPressed: () {
+                        productProvider.getCardData(
+                          name: widget.name,
+                          image: widget.image,
+                          quenty: count,
+                          price: widget.price,
+                          category: widget.category,
+                        );
+                        Navigator.of(context).pushReplacement(
+                          MaterialPageRoute(
+                            builder: (context) => const CartScreen(),
+                          ),
+                        );
+                      },
+                      buttomcolor: bg1Color,
+                    ),
                     const SizedBox(height: 10),
                   ],
                 ),

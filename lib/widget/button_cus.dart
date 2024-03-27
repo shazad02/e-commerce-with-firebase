@@ -5,9 +5,13 @@ import '../util/dimensions.dart';
 class ButtonCus extends StatelessWidget {
   final Function onPressed;
   final String textButton;
+  final Color buttomcolor;
 
   const ButtonCus(
-      {super.key, required this.textButton, required this.onPressed});
+      {super.key,
+      required this.textButton,
+      required this.onPressed,
+      required this.buttomcolor});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +24,7 @@ class ButtonCus extends StatelessWidget {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(60),
           ),
-          backgroundColor: bg2Color,
+          backgroundColor: buttomcolor == 'bg1Color' ? bg1Color : null,
         ),
         onPressed: onPressed as void Function(),
         child: Text(

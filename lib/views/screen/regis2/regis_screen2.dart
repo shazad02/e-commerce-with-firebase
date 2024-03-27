@@ -191,7 +191,7 @@ class _RegisFullScreenState extends State<RegisFullScreen> {
           child: Text(ongkir.name),
         );
       }).toList(),
-      decoration: InputDecoration(
+      decoration: const InputDecoration(
         labelText: 'Pilih Lokasi',
         border: OutlineInputBorder(),
       ),
@@ -287,7 +287,7 @@ class _RegisFullScreenState extends State<RegisFullScreen> {
               ),
             ],
           ),
-          SizedBox(
+          const SizedBox(
             height: 15,
           ),
           Column(
@@ -310,7 +310,7 @@ class _RegisFullScreenState extends State<RegisFullScreen> {
               ),
             ],
           ),
-          SizedBox(
+          const SizedBox(
             height: 15,
           ),
           FutureBuilder<QuerySnapshot>(
@@ -388,6 +388,7 @@ class _RegisFullScreenState extends State<RegisFullScreen> {
         child: Form(
           key: _formKey,
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               _textHeader(),
